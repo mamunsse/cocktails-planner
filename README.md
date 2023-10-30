@@ -18,8 +18,8 @@ This web application backend has been built with Djnago REST framework which off
 - If required to remove all old data from database then run `python manage.py makemigrations` (optional)
 - Migrate the database with `python manage.py migrate` (optional)
 
-- navigate to `[project root directory]\gui` and ensure you have npm installed then Install node dependencies with `npm install`
-- To generate optimized version of gui into backend run `npm run build`
+- navigate to `[project root directory]\frontend` and ensure you have npm installed then Install node dependencies with `npm install`
+- To generate optimized version of frontend into backend run `npm run build`
 
 - Navigate to the root of the project (`[project root directory]\backend`) and to Start development server on `http://127.0.0.1/:8000` or `http://localhost:8000/`  run `python manage.py runserver`
 
